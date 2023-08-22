@@ -1,3 +1,3 @@
 # Llama-2
-We have build a chatbot using our own dataset using Llama2. We have a pdf document and we want Llama2 to answer the prompt from that document. We have built embeddings of our document using Pinecone.
+We have build a chatbot using our own dataset using Llama2. We have a pdf document and we want Llama2 to answer the prompt from that document. We have built embeddings of our document using Pinecone.We are using GGML model due to limited processing power we have. We have used sentence transformers embeddings to get response using Llama2. We can also choose the hyperparameters like temperature, setting the template_prompt, length of maximum tokens etc depending upon the type of response we are interedted in.
 Now we have built the embeddings, we will answer the promts using llama2 from this document. The answers to our prompt are very much similar to those in the document.
